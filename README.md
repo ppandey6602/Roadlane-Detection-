@@ -1,6 +1,6 @@
 # Road Lane Detection: White and Yellow, Straight and Curved
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/road-lane-detection/blob/main/notebooks/road_lane_detection_full_project.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Sgk9V2uwQZmPoBzD643ZTUgJnEtflJdk?usp=sharing)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Framework](https://img.shields.io/badge/PyTorch-YOLOv8%20%7C%20U--Net-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -217,4 +217,4 @@ Weights are not stored in the repository (the U-Net file is close to GitHub's 10
 
 ## Author
 
-**Prateek Pandey**: [GitHub](https://github.com/YOUR_USERNAME) · [LinkedIn](https://www.linkedin.com/in/YOUR_HANDLE)
+**Prateek Pandey**: [GitHub](https://github.com/ppandey6602) · [LinkedIn](https://www.linkedin.com/in/prateek-pandey-24aa84222)
