@@ -1,0 +1,10 @@
+# Reference list of dependencies. The notebook installs what it needs on Google Colab.
+# Versions are intentionally unpinned; pin them after your own successful run (pip freeze).
+ultralytics
+segmentation-models-pytorch
+torch
+torchvision
+opencv-python
+numpy
+matplotlib
+Pillow

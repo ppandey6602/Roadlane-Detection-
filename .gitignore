@@ -1,0 +1,18 @@
+# data and archives (never commit datasets)
+data/raw/
+data/yolo_data/
+*.zip
+
+# training outputs and weights (publish weights via GitHub Releases instead)
+runs/
+*.pt
+*.pth
+models/*
+!models/.gitkeep
+
+# python / notebook noise
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+.vscode/
