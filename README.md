@@ -7,10 +7,6 @@
 
 A hybrid computer-vision pipeline that detects lane markings on road photos and shows which part of the road is the driving lane. It combines two trained neural networks with a colour-and-curve-fitting stage, so it handles white and yellow paint, dashed and solid lines, and straight and curved roads.
 
-<p align="center">
-  <img src="docs/images/demo_overview.png" alt="Four-panel result: original, road area, evidence, final lines" width="95%">
-</p>
-
 > **Legend:** green = ego lane, blue = other lanes, red boxes = YOLO detections, **cyan lines = white paint, orange lines = yellow paint**.
 
 ---
@@ -80,14 +76,6 @@ Metrics are measured on held-out validation images that were never used for trai
 | Full pipeline | Labelled marking pieces found (YOLO or fitted curve) | `xx.x %` |
 
 > The last row is a practical proxy: a labelled box counts as found if a YOLO box overlaps it (IoU ≥ 0.3) or a fitted curve passes through it. It is not a standard benchmark metric. The validation set is small (10 photos), so treat all numbers as indicative.
-
-### Example outputs
-
-| Scene | Result |
-|---|---|
-| Curved road, double yellow line | <img src="docs/images/demo_curve_yellow.png" width="420"> |
-| Straight road, dashed white line | <img src="docs/images/demo_straight_dashed.png" width="420"> |
-| City road (KITTI test photo) | <img src="docs/images/demo_city.png" width="420"> |
 
 ## Datasets
 
