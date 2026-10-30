@@ -4,7 +4,7 @@ No data is stored in this repository. Download the datasets from their original 
 
 | Dataset | Format | Used for | Source |
 |---|---|---|---|
-| Road-line boxes | 50 photos + Pascal VOC `.xml` (class `road_line`, 172 boxes) | YOLOv8 marking detector | `[add source link]` |
+| Road-line boxes | 50 photos + Pascal VOC `.xml` (class `road_line`, 172 boxes) | YOLOv8 marking detector | https://www.kaggle.com/datasets/dataclusterlabs/lane-detection-road-line-detection-image-dataset |
 | KITTI Road (224×224 copy) | 289 photos + colour masks (`image_2/`, `gt_image_2/`) plus an unlabelled `testing/` folder | U-Net road / lane-area segmenter | http://www.cvlibs.net/datasets/kitti/eval_road.php |
 
 Expected content of the uploaded zips (names may differ; the notebook detects the type automatically):
